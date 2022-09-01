@@ -1,4 +1,4 @@
-package fundamentos
+package main
 
 import (
 	"fmt"
@@ -74,6 +74,11 @@ Utilizando a solução do exercício anterior:
             2. Demonstre o valor de "y"
             3. Demonstre o tipo de "y"
 */
+
+func main() {
+	Exemples()
+	Declarations()
+}
 
 func Exemples() {
 	var y int
